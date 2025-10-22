@@ -346,3 +346,6 @@ By following these key activities, teams can ensure a well-understood and agreed
 
 Understanding both types of requirements ensures that the booking management system is not only **functionally complete** but also **robust, secure, and user-friendly**.
 
+![ALX Booking Use Case Diagram](./alx-booking-uc.png)
+
+
