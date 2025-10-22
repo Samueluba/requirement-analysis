@@ -210,4 +210,48 @@ By establishing clear and precise acceptance criteria, you ensure that the featu
 
 - **Example**: In the case of a complex enterprise system, understanding specific technical requirements up front can help the team decide whether to use existing frameworks, create custom solutions, or rely on third-party integrations.
 
+- # Use Case Diagrams
+
+## What are Use Case Diagrams?
+
+**Use Case Diagrams** are a type of UML (Unified Modeling Language) diagram used in **requirement analysis** to visually represent the functional requirements of a system. They describe the interactions between **actors** (users or external systems) and the system itself, showing the different ways the system can be used.
+
+### 🔍 Benefits of Use Case Diagrams
+
+- **Clarify System Scope**: Show what is inside and outside the boundaries of the system.
+- **Identify Key Interactions**: Highlight how users and other systems interact with your application.
+- **Improve Communication**: Serve as a common visual language between stakeholders, developers, and testers.
+- **Support Requirement Gathering**: Help identify and organize functional requirements early in the development cycle.
+
+---
+
+## 🧭 Use Case Diagram: Booking Management System
+
+The following diagram shows the key actors and use cases in a **Booking Management System**.
+
+### 🎭 Actors:
+- **Customer**: Books rooms, views bookings, makes payments.
+- **Admin**: Manages listings, views reports, edits bookings.
+- **Payment Gateway** (external system): Handles payment processing.
+
+### 📌 Use Cases:
+- Search Listings
+- View Room Details
+- Create Booking
+- Cancel Booking
+- Make Payment
+- Manage Bookings
+- Generate Reports
+
+### 📷 Diagram:
+
+![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+> *Image: `alx-booking-uc.png` should be exported from a diagram tool like Draw.io and placed in the root or `assets/` folder of your project.*
+
+---
+
+![Use Case Diagram for Booking System](alx‑booking‑uc.png)
+
+
 In conclusion, requirement analysis not only sets the direction for the project but also ensures that the development process remains aligned with user needs, budget, and timeline constraints, ultimately leading to a higher-quality product.
