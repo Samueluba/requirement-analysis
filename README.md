@@ -299,6 +299,49 @@ Non-functional requirements specify the **criteria** that judge the operation of
 
 These requirements impact the user experience, system performance, and security, but are not tied to specific user actions.
 
+# Key Activities in Requirement Analysis
+
+Requirement Analysis is a critical phase in the software development lifecycle that ensures the final system meets the needs and expectations of stakeholders. It involves a series of structured activities that help define what the system should do and how it should behave.
+
+## 1. Requirement Gathering
+
+- Involves collecting all potential requirements from stakeholders (clients, users, business managers, etc.).
+- Focuses on understanding the high-level needs of the system.
+- Uses techniques like interviews, surveys, questionnaires, and brainstorming sessions.
+- Helps create a foundation for more detailed requirement discussions.
+
+## 2. Requirement Elicitation
+
+- A deeper process of drawing out detailed requirements from stakeholders.
+- Involves active engagement and exploration to uncover both stated and hidden needs.
+- Techniques include use case analysis, observation, document analysis, and workshops.
+- Aims to ensure no critical requirement is overlooked or misunderstood.
+
+## 3. Requirement Documentation
+
+- Converts gathered and elicited requirements into a clear, structured format.
+- Common formats include Software Requirements Specification (SRS), user stories, or requirement traceability matrices.
+- Provides a reference point for developers, testers, and stakeholders.
+- Documentation must be unambiguous, complete, consistent, and verifiable.
+
+## 4. Requirement Analysis and Modeling
+
+- Analyzes the collected requirements for feasibility, consistency, and clarity.
+- Identifies conflicts, dependencies, and priorities among requirements.
+- Models the system using diagrams like Use Case Diagrams, Activity Diagrams, or Data Flow Diagrams (DFD).
+- Helps visualize how the system is expected to function.
+
+## 5. Requirement Validation
+
+- Ensures the documented requirements accurately reflect stakeholder needs.
+- Validates that requirements are feasible, testable, and aligned with business goals.
+- Involves reviews, walkthroughs, and approval sessions with stakeholders.
+- Helps prevent costly changes during later stages of development.
+
+---
+
+By following these key activities, teams can ensure a well-understood and agreed-upon set of requirements, forming a strong foundation for system design and implementation.
+
 ---
 
 Understanding both types of requirements ensures that the booking management system is not only **functionally complete** but also **robust, secure, and user-friendly**.
