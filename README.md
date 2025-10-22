@@ -255,3 +255,51 @@ The following diagram shows the key actors and use cases in a **Booking Manageme
 
 
 In conclusion, requirement analysis not only sets the direction for the project but also ensures that the development process remains aligned with user needs, budget, and timeline constraints, ultimately leading to a higher-quality product.
+
+# Types of Requirements
+
+In software engineering, requirements are typically classified into two main categories: **Functional** and **Non-functional**. Both are critical for successful system design, development, and validation.
+
+## Functional Requirements
+
+Functional Requirements describe the **specific behavior or functions** of a system — what the system **should do**. These are directly tied to user needs and business goals.
+
+### 📌 Definition:
+Functional requirements define the **features and capabilities** that the system must provide in response to user inputs.
+
+### ✅ Examples for Booking Management System:
+
+- The system must allow customers to search for available rooms based on date, location, and room type.
+- Users must be able to create a booking and receive a booking reference number.
+- Customers can cancel or modify existing bookings.
+- The admin can manage listings (add, update, or delete room types).
+- The system must process payments through an external payment gateway.
+- Upon successful payment, the system should send an email confirmation to the customer.
+
+These are concrete features that developers can build, testers can test, and users can interact with.
+
+---
+
+## Non-functional Requirements
+
+Non-functional Requirements describe the **quality attributes** of a system — how the system should behave. They are often related to **performance, usability, reliability, and compliance**.
+
+### 📌 Definition:
+Non-functional requirements specify the **criteria** that judge the operation of a system, rather than specific behaviors.
+
+### ✅ Examples for Booking Management System:
+
+- The system should respond to search queries within 2 seconds under normal load.
+- User sessions should automatically expire after 15 minutes of inactivity.
+- The system must be available 99.9% of the time, excluding planned maintenance.
+- All user data must be encrypted in transit and at rest.
+- The system should support at least 1,000 concurrent users.
+- The web application must be compatible with the latest versions of Chrome, Firefox, and Safari.
+- All features should be accessible according to WCAG 2.1 AA standards.
+
+These requirements impact the user experience, system performance, and security, but are not tied to specific user actions.
+
+---
+
+Understanding both types of requirements ensures that the booking management system is not only **functionally complete** but also **robust, secure, and user-friendly**.
+
